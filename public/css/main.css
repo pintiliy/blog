@@ -1,0 +1,136 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*{
+	margin: 0;
+	padding 0;
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+body input:required:valid,
+body textarea:required:valid {
+
+}
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	background: #ffffff;
+}
+@font-face{
+	font-family: OpenSans;
+	src: url(../fonts/OpenSans.ttf);
+}
+@font-face{
+	font-family: OpenSansBold;
+	src: url(../fonts/OpenSansBold.ttf);
+}
+@font-face{
+	font-family: Roboto;
+	src: url(../fonts/RobotoCondensed.ttf);
+}
+@font-face{
+	font-family: RobotoBold;
+	src: url(../fonts/Roboto.ttf);
+}
+.hidden {
+	display: none;
+}
+.clear{
+	clear: both;
+}
+.width-container{
+	width: 1100px;
+	margin: 0 auto !important;
+}
+
+.logo > img{
+	width: 200px;
+	margin: 10px 0 0 20px;
+}
+.navbar-top-menu{
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.navbar-top-menu > div > div{
+	padding:10px;
+}
+.top-menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.top-menu ul li{
+	float: left;
+	margin: 5px 10px;
+}
+.top-menu ul li a{
+	font: normal 17px OpenSans;
+	color: #232323;
+	text-transform: uppercase;
+}
+.top-menu ul li a:hover{
+	color: #32A9C1;
+	text-decoration: none;
+}
+.search-form {
+	border-left: 1px solid #F0F0F0;
+}
+.search-form > div > input:focus{
+	outline: none;
+}
+.search-form > div > input{
+	border: none;
+	font: normal 17px OpenSans;
+	padding: 6px;
+}
+.button-search{
+	background: #EDEDED;
+	border: none;
+	padding:6px 15px;
+}
+.button-search:hover{
+	background: #32A9C1;
+	color: #fff;
+}
+/*------------------BOOTSTRAP---------------*/
+.container-fluid{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	margin: 10px;
+}
+.navbar-brand{
+	height: auto;
+}
+.navbar-collapse{
+	padding: 10px;
+}
+.navbar-default{
+	background: #fff;
+	border: none;
+}
+.navbar-right a{
+	font: normal 15px OpenSans;
+}
+.navbar-right a:hover{
+	background: #32A9C1 !important;
+	color: #fff !important;
+}
