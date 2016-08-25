@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+
+Route::group(['prefix' => '/user/'], function(){
+    Route::get('permissions', 'TestRoleController@userList');
+    Route::post('save-roles', 'TestRoleController@saveUserPermissions');
+    Route::post('save-permissions', 'TestRoleController@saveRolePermissions');
+});
+
+
