@@ -1,0 +1,49 @@
+.admin-left-sidebar{
+    background: #F7F8F9;
+    height: 100vh;
+}
+.clear{
+    clear: both;
+}
+.thumb{
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+}
+.thumb img{
+    width: 100%;
+    padding: 5px 0;
+}
+.thumb-name{
+    font:normal 17px OpenSans;
+}
+.thumb-status{
+    font:normal 12px OpenSans;
+}
+.title-block-menu{
+    font: normal 20px OpenSans;
+    color: #048DBF;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.admin-menu ul{
+    padding: 0;
+    margin-left: 10px;
+}
+
+.admin-menu ul li{
+    list-style: none;
+}
+.admin-menu ul li a{
+    text-decoration: none;
+    color: #EB6369;
+    font: normal 15px OpenSans;
+}
+
+.title-block{
+    border-bottom: 2px solid #0493CB;
+    font: normal 25px OpenSans;
+    color: #0493CB;
+    padding: 10px 0;
+    margin: 0 0 20px 0;
+}

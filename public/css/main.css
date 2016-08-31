@@ -16,7 +16,7 @@
 }
 *{
 	margin: 0;
-	padding 0;
+	padding: 0;
 }
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
